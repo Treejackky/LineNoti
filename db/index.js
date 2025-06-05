@@ -6,6 +6,8 @@ const dbName = process.env.DB_NAME;
 const dbUser = process.env.DB_USER;
 const dbPassword = process.env.DB_PASSWORD;
 
+console.log(process.env.DB_HOST, process.env.DB_NAME, process.env.DB_PORT, process.env.DB_DIALECT);
+
 const options = {
     host: process.env.DB_HOST,
     port: process.env.DB_PORT || 3306,
