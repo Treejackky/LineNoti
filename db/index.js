@@ -16,7 +16,7 @@ const options = {
         collate: 'utf8mb4_unicode_ci',
     },
     dialectOptions: {
-        decimalNUmbers: true,
+        decimalNumbers: true,
     },
     pool: {
         max: 10,
