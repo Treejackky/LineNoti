@@ -43,4 +43,4 @@ HEALTHCHECK --interval=30s --timeout=3s \
 EXPOSE 3000
 
 # Start the application
-CMD ["npm", "rund" ,"prod"]
+CMD ["npm", "run" ,"prod"]
