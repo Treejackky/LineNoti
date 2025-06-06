@@ -2,7 +2,7 @@ const { Admin } = require('../../db');
 
 exports.findAdmin = async (req, res) => {
     try {
-        console.log("get Admin");
+        console.log("get Admin2");
         const admin = await Admin.findAll();
         res.status(200).json({
             message: 'Admin found',
