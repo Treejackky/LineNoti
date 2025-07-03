@@ -29,7 +29,7 @@ const options = {
 };
 
 const db = new Sequelize(dbName, dbUser, dbPassword, options);
-
+// check
 const models = {
     Admin: require('../modules/admin/admin.model')(db, Sequelize),
 };
