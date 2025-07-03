@@ -16,7 +16,6 @@ exports.syncDB = async ({ alter = false }) => {
     }
 }
 
-// ให้ run syncDB
 if(method === 'sync-alter'){
     this.syncDB({ alter: true }).then(() => process.exit(0));
 }else if(method === 'sync-force'){
